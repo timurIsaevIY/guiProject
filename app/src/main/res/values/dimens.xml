@@ -1,0 +1,9 @@
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="weekday">11sp</dimen>
+    <dimen name="cardView">20dp</dimen>
+    <dimen name="cardView_round">50dp</dimen>
+    <dimen name="item_undergroundText">16sp</dimen>
+    <dimen name="item_placeText">12sp</dimen>
+    <dimen name="tv_weekday">16sp</dimen>
+</resources>

@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">ProjectGUI</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">Выгодные места</string>
+    <string name="second_fragment_label">Расписание</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="Monday">Пн</string>
+    <string name="Tuesday">Вт</string>
+    <string name="Wednesday">Ср</string>
+    <string name="Thursday">Чт</string>
+    <string name="Friday">Пт</string>
+    <string name="Saturday">Сб</string>
+    <string name="Sunday">Вс</string>
+
+    <string name="fullMonday">Понедельник</string>
+    <string name="fullTuesday">Вторник</string>
+    <string name="fullWednesday">Среда</string>
+    <string name="fullThursday">Четверг</string>
+    <string name="fullFriday">Пятница</string>
+    <string name="fullSaturday">Суббота</string>
+    <string name="fullSunday">Воскресенье</string>
+
+    <string name="addPlace">Добавить место</string>
+
+    <string name="menu_settings">Пока что недоступно</string>
+
+    <string name="info">
+        В качестве станции метро выберите одну из нижеперечисленных станций:
+        Охотный Ряд, Курская, Театральная, Новокузнецкая, Площадь Революции, Библиотека имени Ленина, Чистые пруды, Арбатская, Кузнецкий Мост.
+    </string>
+
+    <string name="lorem_ipsum">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam in scelerisque sem. Mauris
+        consequat, quis tincidunt nisl eleifend. Cras bibendum enim a justo luctus
+        vestibulum. Fusce dictum libero quis erat maximus, vitae volutpat diam dignissim.
+    </string>
+</resources>

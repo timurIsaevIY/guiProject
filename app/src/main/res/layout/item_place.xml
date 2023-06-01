@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="90dp">
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginHorizontal="10dp"
+        android:background="@color/gray"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cv_undergroundColor"
+        android:layout_width="@dimen/cardView"
+        android:layout_height="@dimen/cardView"
+        android:layout_marginStart="20dp"
+
+        app:cardCornerRadius="@dimen/cardView_round"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_placeAddress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Измайловский проспект 73/2"
+        android:layout_marginBottom="15dp"
+        android:layout_marginStart="40dp"
+        android:textSize="@dimen/item_placeText"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/cv_undergroundColor" />
+
+    <TextView
+        android:id="@+id/tv_underground"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Метро Измайловское"
+        android:layout_marginStart="40dp"
+        android:textSize="@dimen/item_undergroundText"
+        app:layout_constraintBottom_toTopOf="@+id/tv_placeAddress"
+        app:layout_constraintStart_toEndOf="@+id/cv_undergroundColor"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
